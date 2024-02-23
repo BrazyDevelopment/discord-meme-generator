@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #fff; 
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1a172bbd; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px #0056b3;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #2c2c2c; 
+    border-radius: 4px;
+    background-color: #2a2a2a; 
+}
+
+li:hover {
+    background-color: #3a3a3a; 
+}
+
+li span {
+    font-weight: bold;
+    color: #fff; 
+    margin-right: 10px;
+}
+
+.copy-button {
+    cursor: pointer;
+    border: none;
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+a {
+    color: #0078e3;
+}
+
+.copy-button:hover {
+    background-color: #0056b3; 
+}
+
+.search-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-container input[type=text] {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #007bff; 
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #2a2a2a; 
+    background-image: url('https://cdn-icons-png.flaticon.com/512/622/622669.png'); 
+    background-size: 20px; 
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px; 
+    outline: none;
+    color: #fff; 
+}
+
+.search-container input[type=text]:focus {
+    border-color: #0056b3; 
+}

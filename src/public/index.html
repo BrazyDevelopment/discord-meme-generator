@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <!-- :: Fontawesome -->
+    <link rel="stylesheet" href="assets/fonts/fontawesome/css/all.min.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">   
+    <script src="https://kit.fontawesome.com/8b0152a36c.js" crossorigin="anonymous"></script>
+    <title>Meme List</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="images/memegen.png" alt="Logo" class="logo">
+            <h1>Meme List</h1>
+        </header>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search for memes...">
+        </div>
+        <ul id="memes-list">
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>10 Guy -</span> <a href="https://api.memegen.link/images/tenguy.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Afraid to Ask Andy -</span> <a href="https://api.memegen.link/images/afraid.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Agnes Harkness Winking -</span> <a href="https://api.memegen.link/images/agnes.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>All Your Base Are Belong to Us -</span> <a href="https://api.memegen.link/images/zero-wing.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Almost Politically Correct Redneck -</span> <a href="https://api.memegen.link/images/apcr.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Always Has Been -</span> <a href="https://api.memegen.link/images/astronaut.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>American Chopper Argument -</span> <a href="https://api.memegen.link/images/chair.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>An Older Code Sir, But It Checks Out -</span> <a href="https://api.memegen.link/images/older.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Anakin and Padme Change the World For the Better -</span> <a href="https://api.memegen.link/images/right.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Ancient Aliens Guy -</span> <a href="https://api.memegen.link/images/aag.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>And It's Gone -</span> <a href="https://api.memegen.link/images/gone.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>And Then I Said -</span> <a href="https://api.memegen.link/images/atis.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>At Least You Tried -</span> <a href="https://api.memegen.link/images/tried.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Awkward Moment Seal -</span> <a href="https://api.memegen.link/images/ams.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Baby Insanity Wolf -</span> <a href="https://api.memegen.link/images/biw.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Baby, You've Got a Stew Going -</span> <a href="https://api.memegen.link/images/stew.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Bad Luck Brian -</span> <a href="https://api.memegen.link/images/blb.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Bongo Cat -</span> <a href="https://api.memegen.link/images/bongo.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>But It's Honest Work -</span> <a href="https://api.memegen.link/images/bihw.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>But That's None of My Business -</span> <a href="https://api.memegen.link/images/kermit.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Butthurt Dweller -</span> <a href="https://api.memegen.link/images/bd.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Captain America Elevator Fight Dad Joke -</span> <a href="https://api.memegen.link/images/captain-america.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Captain Hindsight -</span> <a href="https://api.memegen.link/images/ch.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Change My Mind -</span> <a href="https://api.memegen.link/images/cmm.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Cheems -</span> <a href="https://api.memegen.link/images/cheems.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Comic Book Guy -</span> <a href="https://api.memegen.link/images/cbg.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Communist Bugs Bunny -</span> <a href="https://api.memegen.link/images/cbb.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Condescending Wonka -</span> <a href="https://api.memegen.link/images/wonka.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Confession Bear -</span> <a href="https://api.memegen.link/images/cb.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Confused Gandalf -</span> <a href="https://api.memegen.link/images/gandalf.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Conspiracy Keanu -</span> <a href="https://api.memegen.link/images/keanu.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Crying on Floor -</span> <a href="https://api.memegen.link/images/cryingfloor.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Daily Struggle -</span> <a href="https://api.memegen.link/images/ds.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Dating Site Murderer -</span> <a href="https://api.memegen.link/images/dsm.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Disaster Girl -</span> <a href="https://api.memegen.link/images/disastergirl.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Distracted Boyfriend -</span> <a href="https://api.memegen.link/images/db.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Distracted Girlfriend -</span> <a href="https://api.memegen.link/images/dg.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Do It Live! -</span> <a href="https://api.memegen.link/images/live.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Do You Want Ants? -</span> <a href="https://api.memegen.link/images/ants.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Doge -</span> <a href="https://api.memegen.link/images/doge.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Donald Trump -</span> <a href="https://api.memegen.link/images/trump.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Drakeposting -</span> <a href="https://api.memegen.link/images/drake.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Drowning High Five -</span> <a href="https://api.memegen.link/images/drowning.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Drunk Baby -</span> <a href="https://api.memegen.link/images/drunk.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Elmo Choosing Cocaine -</span> <a href="https://api.memegen.link/images/elmo.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Ermahgerd -</span> <a href="https://api.memegen.link/images/ermg.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Everything the Light Touches is Our Kingdom -</span> <a href="https://api.memegen.link/images/light.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Expectation vs. Reality -</span> <a href="https://api.memegen.link/images/dbg.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Facepalm -</span> <a href="https://api.memegen.link/images/facepalm.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Fake Spirit Halloween Costume -</span> <a href="https://api.memegen.link/images/spirit.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Feels Bad Man -</span> <a href="https://api.memegen.link/images/sadfrog.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Feels Good -</span> <a href="https://api.memegen.link/images/feelsgood.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>First Try! -</span> <a href="https://api.memegen.link/images/firsttry.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>First World Problems -</span> <a href="https://api.memegen.link/images/fwp.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Forever Alone -</span> <a href="https://api.memegen.link/images/fa.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Foul Bachelor Frog -</span> <a href="https://api.memegen.link/images/fbf.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Fuck Me, Right? -</span> <a href="https://api.memegen.link/images/fmr.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Futurama Fry -</span> <a href="https://api.memegen.link/images/fry.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Galaxy Brain -</span> <a href="https://api.memegen.link/images/gb.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Genie Lamp -</span> <a href="https://api.memegen.link/images/genie.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Genie Rules -</span> <a href="https://api.memegen.link/images/wishes.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Get Better Material -</span> <a href="https://api.memegen.link/images/crow.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Good Guy Greg -</span> <a href="https://api.memegen.link/images/ggg.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Grant Gustin Next To Oliver Queen's Grave -</span> <a href="https://api.memegen.link/images/grave.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Gru's Plan -</span> <a href="https://api.memegen.link/images/gru.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Grumpy Cat -</span> <a href="https://api.memegen.link/images/grumpycat.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Guy Hammering Nails Into Sand -</span> <a href="https://api.memegen.link/images/nails.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Hide the Pain Harold -</span> <a href="https://api.memegen.link/images/harold.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Hipster Barista -</span> <a href="https://api.memegen.link/images/hipster.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>I Can Has Cheezburger? -</span> <a href="https://api.memegen.link/images/icanhas.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>I Feel Like I'm Taking Crazy Pills -</span> <a href="https://api.memegen.link/images/crazypills.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>I Guarantee It -</span> <a href="https://api.memegen.link/images/mw.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>I Have No Idea What I'm Doing -</span> <a href="https://api.memegen.link/images/noidea.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>I Immediately Regret This Decision! -</span> <a href="https://api.memegen.link/images/regret.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>I Made This -</span> <a href="https://api.memegen.link/images/made.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>I Should Buy a Boat Cat -</span> <a href="https://api.memegen.link/images/boat.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>I Should Not Have Said That -</span> <a href="https://api.memegen.link/images/hagrid.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>I Would Be So Happy -</span> <a href="https://api.memegen.link/images/sohappy.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>I am the Captain Now -</span> <a href="https://api.memegen.link/images/captain.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>I'm Going to Build My Own Theme Park -</span> <a href="https://api.memegen.link/images/bender.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Inhaling Seagull -</span> <a href="https://api.memegen.link/images/seagull.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Inigo Montoya -</span> <a href="https://api.memegen.link/images/inigo.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Insanity Wolf -</span> <a href="https://api.memegen.link/images/iw.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Is This a Pigeon? -</span> <a href="https://api.memegen.link/images/pigeon.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>It's A Trap! -</span> <a href="https://api.memegen.link/images/ackbar.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>It's Happening -</span> <a href="https://api.memegen.link/images/happening.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>It's Simple, Kill the Batman -</span> <a href="https://api.memegen.link/images/joker.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Jim Halpert Pointing to Whiteboard -</span> <a href="https://api.memegen.link/images/jim.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Jony Ive Redesigns Things -</span> <a href="https://api.memegen.link/images/ive.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Joseph Ducreux -</span> <a href="https://api.memegen.link/images/jd.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Karate Kyle -</span> <a href="https://api.memegen.link/images/kk.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Khaby Lame Shrug -</span> <a href="https://api.memegen.link/images/khaby-lame.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Kombucha Girl -</span> <a href="https://api.memegen.link/images/kombucha.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Kramer, What's Going On In There? -</span> <a href="https://api.memegen.link/images/kramer.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Laughing Lizard -</span> <a href="https://api.memegen.link/images/ll.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Laundry Room Viking -</span> <a href="https://api.memegen.link/images/lrv.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Left Exit 12 Off Ramp -</span> <a href="https://api.memegen.link/images/exit.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Leo Strutting -</span> <a href="https://api.memegen.link/images/leo.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Life... Finds a Way -</span> <a href="https://api.memegen.link/images/away.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Matrix Morpheus -</span> <a href="https://api.memegen.link/images/morpheus.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Member Berries -</span> <a href="https://api.memegen.link/images/mb.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Men in Black -</span> <a href="https://api.memegen.link/images/because.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Michael Scott No God No -</span> <a href="https://api.memegen.link/images/michael-scott.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Milk Was a Bad Choice -</span> <a href="https://api.memegen.link/images/badchoice.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Mini Keanu Reeves -</span> <a href="https://api.memegen.link/images/mini-keanu.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Minor Mistake Marvin -</span> <a href="https://api.memegen.link/images/mmm.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Mocking Spongebob -</span> <a href="https://api.memegen.link/images/spongebob.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>No Soup for You -</span> <a href="https://api.memegen.link/images/soup-nazi.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>No Take, Only Throw -</span> <a href="https://api.memegen.link/images/ntot.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Nothing To Do Here -</span> <a href="https://api.memegen.link/images/jetpack.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Office Space Milton -</span> <a href="https://api.memegen.link/images/cake.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Oh, I'm Sorry, I Thought This Was America -</span> <a href="https://api.memegen.link/images/imsorry.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Oh, Is That What We're Going to Do Today? -</span> <a href="https://api.memegen.link/images/red.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>One Does Not Simply Walk into Mordor -</span> <a href="https://api.memegen.link/images/mordor.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Oprah You Get a Car -</span> <a href="https://api.memegen.link/images/oprah.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Overly Attached Girlfriend -</span> <a href="https://api.memegen.link/images/oag.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Panik Kalm Panik -</span> <a href="https://api.memegen.link/images/panik-kalm-panik.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Patrick Star's Wallet -</span> <a href="https://api.memegen.link/images/wallet.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Pepperidge Farm Remembers -</span> <a href="https://api.memegen.link/images/remembers.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Perfection -</span> <a href="https://api.memegen.link/images/perfection.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Persian Cat Room Guardian -</span> <a href="https://api.memegen.link/images/persian.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Peter Parker's Glasses -</span> <a href="https://api.memegen.link/images/glasses.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Philosoraptor -</span> <a href="https://api.memegen.link/images/philosoraptor.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Phoebe Teaching Joey -</span> <a href="https://api.memegen.link/images/ptj.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Principal Skinner -</span> <a href="https://api.memegen.link/images/touch.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Probably Not a Good Idea -</span> <a href="https://api.memegen.link/images/jw.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Push it somewhere else Patrick -</span> <a href="https://api.memegen.link/images/patrick.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Roll Safe -</span> <a href="https://api.memegen.link/images/rollsafe.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Roll Safe -</span> <a href="https://api.memegen.link/images/rollsafe.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Sad Barack Obama -</span> <a href="https://api.memegen.link/images/sad-obama.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Sad Bill Clinton -</span> <a href="https://api.memegen.link/images/sad-clinton.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Sad George Bush -</span> <a href="https://api.memegen.link/images/sad-bush.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Sad Joe Biden -</span> <a href="https://api.memegen.link/images/sad-biden.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Sad John Boehner -</span> <a href="https://api.memegen.link/images/sad-boehner.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Salt Bae -</span> <a href="https://api.memegen.link/images/saltbae.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Sarcastic Bear -</span> <a href="https://api.memegen.link/images/sarcasticbear.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Say the Line, Bart! -</span> <a href="https://api.memegen.link/images/say.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Schrute Facts -</span> <a href="https://api.memegen.link/images/dwight.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Scooby Doo Reveal -</span> <a href="https://api.memegen.link/images/reveal.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Scumbag Brain -</span> <a href="https://api.memegen.link/images/sb.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Scumbag Steve -</span> <a href="https://api.memegen.link/images/ss.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Seal of Approval -</span> <a href="https://api.memegen.link/images/soa.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Sealed Fate -</span> <a href="https://api.memegen.link/images/sf.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>See? Nobody Cares -</span> <a href="https://api.memegen.link/images/dodgson.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Shut Up and Take My Money! -</span> <a href="https://api.memegen.link/images/money.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Skeptical Snake -</span> <a href="https://api.memegen.link/images/snek.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Skeptical Third World Kid -</span> <a href="https://api.memegen.link/images/sk.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>So Hot Right Now -</span> <a href="https://api.memegen.link/images/sohot.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>So I Got That Goin' For Me, Which is Nice -</span> <a href="https://api.memegen.link/images/nice.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Socially Awesome Awkward Penguin -</span> <a href="https://api.memegen.link/images/awesome-awkward.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Socially Awesome Penguin -</span> <a href="https://api.memegen.link/images/awesome.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Socially Awkward Awesome Penguin -</span> <a href="https://api.memegen.link/images/awkward-awesome.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Socially Awkward Penguin -</span> <a href="https://api.memegen.link/images/awkward.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Spider-Man Pointing at Spider-Man -</span> <a href="https://api.memegen.link/images/spiderman.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Stonks -</span> <a href="https://api.memegen.link/images/stonks.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Stop It Patrick You're Scaring Him -</span> <a href="https://api.memegen.link/images/stop.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Stop It, Get Some Help -</span> <a href="https://api.memegen.link/images/stop-it.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Stop Trying to Make Fetch Happen -</span> <a href="https://api.memegen.link/images/fetch.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Success Kid -</span> <a href="https://api.memegen.link/images/success.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Sudden Clarity Clarence -</span> <a href="https://api.memegen.link/images/scc.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Super Cool Ski Instructor -</span> <a href="https://api.memegen.link/images/ski.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Sweet Brown -</span> <a href="https://api.memegen.link/images/aint-got-time.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>That Would Be Great -</span> <a href="https://api.memegen.link/images/officespace.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>The Most Interesting Man in the World -</span> <a href="https://api.memegen.link/images/interesting.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>The Rent Is Too Damn High -</span> <a href="https://api.memegen.link/images/toohigh.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>The Worst Day Of Your Life So Far -</span> <a href="https://api.memegen.link/images/worst.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>They're The Same Picture -</span> <a href="https://api.memegen.link/images/same.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>This is Bull, Shark -</span> <a href="https://api.memegen.link/images/bs.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>This is Fine -</span> <a href="https://api.memegen.link/images/fine.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>This is Sparta! -</span> <a href="https://api.memegen.link/images/sparta.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Too Confusing, Too Extreme -</span> <a href="https://api.memegen.link/images/prop3.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Tuxedo Winnie the Pooh -</span> <a href="https://api.memegen.link/images/pooh.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Types of Headaches -</span> <a href="https://api.memegen.link/images/headaches.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Ugandan Knuckles -</span> <a href="https://api.memegen.link/images/ugandanknuck.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Unpopular opinion puffin -</span> <a href="https://api.memegen.link/images/puffin.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Vince McMahon Reaction -</span> <a href="https://api.memegen.link/images/vince.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>We Don't Do That Here -</span> <a href="https://api.memegen.link/images/wddth.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>We Have Food at Home -</span> <a href="https://api.memegen.link/images/home.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>What Are Ya Gonna Do? -</span> <a href="https://api.memegen.link/images/waygd.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>What Color Do You Want Your Dragon -</span> <a href="https://api.memegen.link/images/dragon.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>What Year Is It? -</span> <a href="https://api.memegen.link/images/whatyear.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>What a Country -</span> <a href="https://api.memegen.link/images/country.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>What is this, a Center for Ants?! -</span> <a href="https://api.memegen.link/images/center.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>What the Hell is This? -</span> <a href="https://api.memegen.link/images/noah.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>What's in the box!? -</span> <a href="https://api.memegen.link/images/box.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Who Killed Hannibal? -</span> <a href="https://api.memegen.link/images/wkh.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Why Not Both? -</span> <a href="https://api.memegen.link/images/both.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Why Shouldn't I Keep It -</span> <a href="https://api.memegen.link/images/bilbo.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Will Smith Slapping Chris Rock -</span> <a href="https://api.memegen.link/images/slap.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Winter is coming -</span> <a href="https://api.memegen.link/images/winter.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Woman Holding Dog's Mouth -</span> <a href="https://api.memegen.link/images/mouth.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Woman Yelling at a Cat -</span> <a href="https://api.memegen.link/images/woman-cat.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>X all the Y -</span> <a href="https://api.memegen.link/images/xy.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>X, X Everywhere -</span> <a href="https://api.memegen.link/images/buzz.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Xzibit Yo Dawg -</span> <a href="https://api.memegen.link/images/yodawg.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Y U NO Guy -</span> <a href="https://api.memegen.link/images/yuno.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>Y'all Got Any More of Them -</span> <a href="https://api.memegen.link/images/yallgot.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>You Guys Are Getting Paid? -</span> <a href="https://api.memegen.link/images/millers.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>You Know What Really Grinds My Gears? -</span> <a href="https://api.memegen.link/images/gears.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>You Should Feel Bad -</span> <a href="https://api.memegen.link/images/bad.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>You Sit on a Throne of Lies -</span> <a href="https://api.memegen.link/images/elf.png" target="_blank">Image Preview</a></li>
+            <li><button class="copy-button" onclick="copyText(this)"><i class="fas fa-copy"></i></button><span>You Were the Chosen One! -</span> <a href="https://api.memegen.link/images/chosen.png" target="_blank">Image Preview</a></li> 
+        </ul>
+    </div>
+    <script>
+        function copyText(button) {
+            var memeName = button.parentNode.querySelector('span').textContent.trim(); 
+            var memeNameWithoutHyphen = memeName.replace(' -', '');
+            var tempInput = document.createElement("input");
+            tempInput.value = memeNameWithoutHyphen;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            alert("Copied: " + memeNameWithoutHyphen);
+        }
+
+        // Function to filter meme list based on user input
+        function filterMemes() {
+            // Get input value and convert to lowercase
+            var input = document.getElementById('search-input').value.toLowerCase();
+            // Get meme list
+            var memes = document.getElementById('memes-list').getElementsByTagName('li');
+
+            // Loop through all list items
+            for (var i = 0; i < memes.length; i++) {
+                var memeName = memes[i].getElementsByTagName('span')[0];
+                // If meme name matches search input, display the list item, otherwise hide it
+                if (memeName.textContent.toLowerCase().indexOf(input) > -1) {
+                    memes[i].style.display = '';
+                } else {
+                    memes[i].style.display = 'none';
+                }
+            }
+        }
+
+        document.getElementById('search-input').addEventListener('input', filterMemes);
+    </script>
+</body>
+</html>
